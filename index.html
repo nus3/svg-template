@@ -9,12 +9,20 @@
     <title>Document</title>
 </head>
 <body>
-    <div>
-        <object data="./img/pointer.svg" type="image/svg+xml" id="pointer"></object>
+    <div class="container">
+        <object id="pointer1" class="pointer pointer1" data="./img/color1.svg" type="image/svg+xml"></object>
+        <object id="pointer2" class="pointer pointer2" data="./img/color2.svg" type="image/svg+xml"></object>
+        <object id="pointer3" class="pointer pointer3" data="./img/color3.svg" type="image/svg+xml"></object>
+        <object id="pointer4" class="pointer pointer4" data="./img/color4.svg" type="image/svg+xml"></object>
+        <object id="pointer5" class="pointer pointer5" data="./img/color5.svg" type="image/svg+xml"></object>
+        <object id="pointer6" class="pointer pointer6" data="./img/color6.svg" type="image/svg+xml"></object>
+        <object id="pointer7" class="pointer pointer7" data="./img/color7.svg" type="image/svg+xml"></object>
+        <object id="pointer8" class="pointer pointer8" data="./img/color8.svg" type="image/svg+xml"></object>
+        <div class="buttonBar">
+            <button type="button" onclick="pause()">pause</button>
+            <button type="button" onclick="play()">play</button>
+        </div>
     </div>
-
-    <button type="button" onclick="pause()">pause</button>
-    <button type="button" onclick="play()">play</button>
 <script src="./vendor/anime.min.js"></script>
 <script src="./main.js"></script>
 </body>
